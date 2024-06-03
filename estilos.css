@@ -1,16 +1,22 @@
 body{
+    display: flex;
+    flex-flow: column wrap;
     background-color: lightblue;
     margin-left:0;
 }
 
-.margen{
-    margin-left: 500px;
+body img{
+    justify-content: center;
+    margin-top:27px;
+    /*margin-left: 500px;*/
 }
 
-#logo{
-    margin-top:27px;
-    margin-left: 500px;
+.margen{
+    display: flex;
+    justify-content: center;
+    /*margin-left: 500px;*/
 }
+
 
 ul{
     list-style-type: none;
@@ -24,7 +30,9 @@ ul{
 }
 
 li {
-    display: inline;
+    display: flex;
+    align-content: flex-start;
+    justify-content: left;
     float: left;
 }
 
@@ -49,8 +57,6 @@ main{
 }
 
 footer{
-    margin-left: 30px;
-    margin-right: 30px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: lightskyblue;
@@ -58,7 +64,7 @@ footer{
     padding-bottom: 5px;
 }
 
-@media screen and ((max-width: 680px)) {
+@media screen and ((max-height:600px) or (max-width: 1000px)) {
     li{
         height: 50px;
         font-size: 20px;
