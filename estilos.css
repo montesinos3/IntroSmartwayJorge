@@ -58,13 +58,20 @@ footer{
     padding-bottom: 5px;
 }
 
-@media (max-width: 680px) {
+@media screen and ((max-width: 680px)) {
     li{
-        height: 80px;
-        font-size: 40px;
+        height: 50px;
+        font-size: 20px;
     }
     main {
-        margin-left: 216px;
+        margin-left: 0px;
         text-size-adjust: 41;
     }
+    .margen{
+        margin-left: 20px;
+    }
+    #logo{
+        margin-left: 20px;
+    }
+    
 }
