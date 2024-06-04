@@ -5,11 +5,12 @@
         <meta charset="UTF-8">
         <meta name="descripcion" content="Esta es la página principal de la web de ByteStorm Solutions">
         <meta name="autor" content="Jorge Montesinos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="estilos.css">
         </head>
 
         <body>
-            <img src="https://play-lh.googleusercontent.com/wCWxbqv538FRoMDyLcc9auY7rOh0y5fvBMp95l2LOZJflinIjz9d0A99klruVF4MX7iB=w3840-h2160-rw"
+            <img id="logo" src="https://play-lh.googleusercontent.com/wCWxbqv538FRoMDyLcc9auY7rOh0y5fvBMp95l2LOZJflinIjz9d0A99klruVF4MX7iB=w3840-h2160-rw"
             alt="Logo ByteStorm" height="250" width="470">
 
             <h1 class="margen">Bienvenido a ByteStorm Solutions</h1>
@@ -21,7 +22,10 @@
                     <a href="#main">Seccion Principal</a>
                 </li>
                 <li>
-                    <a href="#galeria">Galeria de imágenes</a>
+                    <a href="#noticias">Noticias</a>
+                </li>
+                <li>
+                    <a href="#galeria">Galeria</a>
                 </li>
                 <li>
                     <a href="#footer">Nuestro contacto</a>
@@ -31,9 +35,9 @@
 
             <main id="main">
                 <section>
-                    <h1>
+                    <h2>
                         Introducción
-                    </h1>
+                    </h2>
                     <p>
                         En un mundo donde la información es el recurso más valioso y las amenazas cibernéticas acechan
                         en cada esquina del internet, surge una organización dedicada a la defensa y protección de este
@@ -41,12 +45,12 @@
                     </p>
                 </section>
                 
-                <section id="galeria">
-                    <h1>
+                <section id="noticias">
+                    <h2>
                         Noticias de actualidad
-                    </h1>
+                    </h2>
                     <article id="noticia1">
-                        <h1>¿Qué es el Bluesnarfing? El ciberataque por Bluetooth que puede robarte datos bancarios y personales</h1>
+                        <h3>¿Qué es el Bluesnarfing? El ciberataque por Bluetooth que puede robarte datos bancarios y personales</h3>
                         <img src="https://imagenes.20minutos.es/files/image_640_360/files/fp/uploads/imagenes/2024/04/24/li_ciberdelincuente.r_d.621-208-6400.jpeg"
                         alt="foto1" height="400" width="800">
                         <section>
@@ -60,7 +64,7 @@
                         </section>
                     </article>
                     <article id="noticia2">
-                        <h1>La letra imprescindible que debe aparecer en tu contraseña para ser segura, según un hacker</h1>
+                        <h3>La letra imprescindible que debe aparecer en tu contraseña para ser segura, según un hacker</h3>
                         <img src="https://imagenes.20minutos.es/files/image_640_360/files/fp/uploads/imagenes/2022/04/29/ordenador.r_d.504-373.jpeg"
                         alt="foto2" height="400" width="800">
                         <section>
@@ -74,8 +78,37 @@
                                 ataques de phishing, que engañan a los usuarios para que revelen sus credenciales. 
                                 Una contraseña débil, fácil de adivinar o reutilizada en múltiples sitios se convierte en un blanco fácil para estos métodos.
                             </p>
+                            <ul>
+                                <li>
+                                    <a>Consecuencia 1</a>
+                                </li>
+                                <li>
+                                    <a>Consecuencia 2</a>
+                                </li>
+                                <li>
+                                    <a>Consecuencia 3</a>
+                                </li>
+                                </ul>
                         </section>
                     </article>
+                </section>
+                <section id="galeria">
+                    <h2>Galeria de imagenes</h2>
+                    <div class="fila">
+                        <article class="columna">
+                            <img src="https://auditech.es/wp-content/uploads/2023/01/ciberseguridad-scaled-1.jpg" alt="img1">
+                            <img src="https://forbes.es/wp-content/uploads/2022/11/ciberseguridad.jpg" alt="img2">
+                            
+                        </article>
+                        <article class="columna">
+                            <img src="https://founderz.com/blog/wp-content/uploads/2023/03/5-amenazas-de-ciberseguridad-2023.jpg" alt="img3">
+                            <img src="https://latam.kaspersky.com/content/es-mx/images/repository/isc/2020/cyber-security-article.jpg" alt="img4">
+                        </article>
+                        <article class="columna">
+                            <img src="https://impulso06.com/wp-content/uploads/2023/02/La-importancia-de-la-educacion-en-ciberseguridad.png" alt="img5">
+                            <img src="https://www.extrasoft.es/wp-content/uploads/2020/05/4-Recursos-de-Ciberseguridad-1080x601.png" alt="img6">
+                        </article>
+                    </div>
                 </section>
             </main>
             <footer id="footer">
