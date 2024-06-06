@@ -6,15 +6,15 @@ swal({
 
 function cambiarModo(){
     let pag=document.getElementsByTagName('body')[0];
-    (pag.id=="claro") ? pag.id="oscuro" : pag.id="claro";
+    (pag.className=="claro") ? pag.className="oscuro" : pag.className="claro";
     // alert(`El id del body es ${document.getElementsByTagName('body')[0].id}`);
 
 
     let footer= document.getElementsByTagName('footer')[0];
-    (footer.className=="claro") ? footer.className="oscuro" : footer.className="claro";
+    (footer.className=="footerclaro") ? footer.className="footeroscuro" : footer.className="footerclaro";
     // alert(`La clase del footer es ${document.getElementsByTagName('footer')[0].className}`);
 
     let menu=document.getElementsByTagName('nav')[0];
-    (menu.id=="menuClaro") ? menu.id="menuOscuro" : menu.id="menuClaro";
+    (menu.className=="menuClaro") ? menu.className="menuOscuro" : menu.className="menuClaro";
     // alert(`El id del menu es ${document.getElementsByTagName('nav')[0].id}`)
 }

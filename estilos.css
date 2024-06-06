@@ -9,7 +9,7 @@ body{
     margin-left:0;
 }
 
-#oscuro{
+.oscuro{
     display: flex;
     flex-flow: column wrap;
     background-color: rgb(0, 45, 59);
@@ -30,7 +30,7 @@ body{
 }
 
 
-#menuOscuro ul{
+.menuOscuro ul{
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -42,15 +42,15 @@ body{
     background-color: rgb(4, 86, 134);
 }
 
-#menuOscuro a{
+.menuOscuro a{
     color: rgb(151, 208, 255); 
 } 
 
-#menuOscuro a:hover{
+.menuOscuro a:hover{
     color: rgb(50, 103, 202); 
 } 
 
-#menuOscuro ul li:last-child button{
+.menuOscuro ul li:last-child button{
     display: flex;
     align-items: center;
     background-color: rgb(56, 176, 231); 
@@ -58,7 +58,7 @@ body{
     border-style: outset;
 }
 
-#menuOscuro ul li:last-child button:hover{
+.menuOscuro ul li:last-child button:hover{
     background-color: rgb(46, 102, 207); 
 }
 
@@ -134,7 +134,7 @@ footer{
     padding-bottom: 5px;
 }
 
-.oscuro{
+.footeroscuro{
     margin-left: 80px;
     margin-right: 150px;
     border: 1px solid black;
@@ -144,7 +144,7 @@ footer{
     padding-bottom: 5px;
     color: blanchedalmond;
 }
-.oscuro a{
+.footeroscuro a{
     color: cornflowerblue;
 }
 
