@@ -23,9 +23,9 @@ function ready() {
         });
     }
     
-    let body = document.getElementsByTagName('body')[0];
-    let m = document.getElementsByTagName('nav')[0];
-    let f = document.getElementsByTagName('footer')[0];
+    let body = document.getElementById('body');
+    let m = document.getElementById('menu');
+    let f = document.getElementById('footer');
 
     if(sessionStorage.getItem('modo')=="claro"){
         body.className="claro";
@@ -59,9 +59,9 @@ function ready() {
  function cambiarModo(){
     let infoModo=sessionStorage.getItem('modo');
     
-    let pag=document.getElementsByTagName('body')[0];
-    let footer= document.getElementsByTagName('footer')[0];
-    let menu=document.getElementsByTagName('nav')[0];
+    let pag=document.getElementById('body');
+    let footer= document.getElementById('footer');
+    let menu=document.getElementById('menu');
     if(infoModo=="claro"){
         pag.className="oscuro";
         footer.className="footeroscuro";
