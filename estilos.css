@@ -9,6 +9,14 @@ body{
     margin-left:0;
 }
 
+#oscuro{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(0, 45, 59);
+    color:white;
+    margin-left:0;
+}
+
 #logo{
     align-self: center;
     margin-top:27px;
@@ -22,7 +30,40 @@ body{
 }
 
 
+#menuOscuro ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: rgb(4, 86, 134);
+}
+
+#menuOscuro a{
+    color: rgb(151, 208, 255); 
+} 
+
+#menuOscuro a:hover{
+    color: rgb(50, 103, 202); 
+} 
+
+#menuOscuro ul li:last-child button{
+    display: flex;
+    align-items: center;
+    background-color: rgb(56, 176, 231); 
+    border-color: rgb(0, 0, 0);
+    border-style: outset;
+}
+
+#menuOscuro ul li:last-child button:hover{
+    background-color: rgb(46, 102, 207); 
+}
+
 nav ul{
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,11 +74,24 @@ nav ul{
     background-color: rgb(0, 174, 255);
 }
 
-nav li {
+nav ul li {
     display: flex;
     align-content: flex-start;
     justify-content: left;
     float: left;
+}
+
+nav ul li:last-child button{
+    display: flex;
+    align-self: center;
+    height: 20px;
+    background-color: rgb(80, 169, 241); 
+    border-color: rgb(0, 0, 0);
+    border-style: outset;
+}
+
+nav ul li:last-child button:hover{
+    background-color: rgb(46, 102, 207); 
 }
 
 nav li a {
@@ -79,6 +133,22 @@ footer{
     padding-left: 5px;
     padding-bottom: 5px;
 }
+
+.oscuro{
+    margin-left: 80px;
+    margin-right: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(4, 86, 134);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: blanchedalmond;
+}
+.oscuro a{
+    color: cornflowerblue;
+}
+
+
 
 
 
