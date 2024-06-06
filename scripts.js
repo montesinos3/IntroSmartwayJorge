@@ -1,8 +1,16 @@
 swal({
     title: "Bienvenido",
     text: "Esta es la web de ByteStorm Solutions", 
-    icon:"info" 
- });
+    icon:"info" ,
+    buttons: {
+        seguir:"Gracias",
+        noMostrar: {text: "No volver a mostrar", value: false}, 
+    },
+    // buttons:true,
+    
+// }).then((value)=>{
+//     return value
+});
 
 function cambiarModo(){
     let pag=document.getElementsByTagName('body')[0];
