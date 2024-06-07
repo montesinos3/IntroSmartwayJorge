@@ -1,5 +1,7 @@
 body{
     padding-top: 60px;
+    background-color: rgb(124, 203, 255);
+    color: rgb(255, 0, 0); 
 }
 
 img{
@@ -14,4 +16,13 @@ img{
 .menu{
     height: 25px;
     width: 25px;
+}
+
+#botonSearch{
+    color: white; 
+    background-color: rgb(61, 175, 12);
+}
+
+.card{
+    width: 18rem;
 }
