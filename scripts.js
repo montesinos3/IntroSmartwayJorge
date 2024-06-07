@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", ready);
+// document.addEventListener("DOMContentLoaded", ready);
 
 
 let infModo=sessionStorage.getItem('modo');
 if(infModo==null) sessionStorage.setItem('modo', "claro");
 
 
-function ready() {
+// function ready() {
     if(sessionStorage.getItem('popup')!="no"){
         swal({
             title: "Bienvenido",
@@ -36,8 +36,9 @@ function ready() {
         m.className="menuOscuro";
         f.className="footeroscuro";
     }
-}
+// }
 
+// ready();
 
 
 

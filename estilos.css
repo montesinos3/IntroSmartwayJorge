@@ -15,6 +15,7 @@ body{
     background-color: rgb(0, 45, 59);
     color:white;
     margin-left:0;
+    color: var;
 }
 
 #logo{
@@ -30,15 +31,7 @@ body{
 }
 
 
-.menuOscuro ul{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    top:0;
-    width: 100%;
+.menuOscuro{
     background-color: rgb(4, 86, 134);
 }
 
@@ -50,19 +43,16 @@ body{
     color: rgb(50, 103, 202); 
 } 
 
-.menuOscuro ul li:last-child button{
-    display: flex;
-    align-items: center;
+.menuOscuro div button{
     background-color: rgb(56, 176, 231); 
     border-color: rgb(0, 0, 0);
-    border-style: outset;
 }
 
-.menuOscuro ul li:last-child button:hover{
+.menuOscuro div button:hover{
     background-color: rgb(46, 102, 207); 
 }
 
-nav ul{
+nav{
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -72,25 +62,40 @@ nav ul{
     top:0;
     width: 100%;
     background-color: rgb(0, 174, 255);
+    justify-content: space-between;
+    max-height: 25px;
+    align-items: center;
+}
+nav ul{
+    padding: 0px;
 }
 
 nav ul li {
     display: flex;
-    align-content: flex-start;
+    /* align-items: flex-start; */
     justify-content: left;
     float: left;
 }
 
-nav ul li:last-child button{
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+nav div button{
     display: flex;
     align-self: center;
+    justify-self: end;
     height: 20px;
     background-color: rgb(80, 169, 241); 
     border-color: rgb(0, 0, 0);
     border-style: outset;
 }
 
-nav ul li:last-child button:hover{
+nav div button:hover{
     background-color: rgb(46, 102, 207); 
 }
 
