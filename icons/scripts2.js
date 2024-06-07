@@ -1,6 +1,11 @@
-const myModal = document.getElementById('myModal')
-const myInput = document.getElementById('myInput')
+function crearModal(titulo){
+	// buscar modal por id
 
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-})
+	// modal setTitulo(titulo) ¿Seguro que quieres elegir a ${titulo}?
+	// bs modal
+	const modal = new bootstrap.Modal('#myModal', {
+		keyboard: true
+	});
+	modal.title= `¿Seguro que quieres elegir a ${titulo}?`;
+	modal.show= true;
+}
