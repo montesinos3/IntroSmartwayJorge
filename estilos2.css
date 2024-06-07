@@ -1,0 +1,12 @@
+body{
+    padding-top: 60px;
+}
+
+img{
+    object-fit: cover;
+}
+
+.grid{
+    max-height: 225px;
+    max-width: 300px;
+}

@@ -18,6 +18,10 @@ body{
     color: var;
 }
 
+img{
+    object-fit: cover;
+}
+
 #logo{
     align-self: center;
     margin-top:27px;
